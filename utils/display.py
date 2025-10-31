@@ -1,5 +1,15 @@
 from colorama import Fore, init
 
+art = """                                                 
+ ▄    ▄  ▄▄▄▄  ▄▄▄▄▄   ▄▄▄▄  ▄▄▄▄▄▄   ▄▄   ▄▄▄▄▄ 
+ ██  ██ ▄▀  ▀▄ █   ▀█ █▀   ▀ █        ██   █   ▀█
+ █ ██ █ █    █ █▄▄▄▄▀ ▀█▄▄▄  █▄▄▄▄▄  █  █  █▄▄▄▄▀
+ █ ▀▀ █ █    █ █   ▀▄     ▀█ █       █▄▄█  █   ▀▄
+ █    █  █▄▄█  █    ▀ ▀▄▄▄█▀ █▄▄▄▄▄ █    █ █    ▀
+
+"""
+
+
 init(autoreset=True)
 
 def print_encrypted(morse_result):
@@ -12,4 +22,4 @@ def print_invalid():
     print(f"{Fore.RED}That's invalid! Try again.")
 
 def print_exit():
-    print(f"\n{Fore.YELLOW}Thanks for using the program! Stay encrypted! 🔒")
+    print(f"\n{Fore.YELLOW}Thank you for using MORSEAR. Stay encrypted! 🔐")
