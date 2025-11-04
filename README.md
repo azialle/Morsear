@@ -3,7 +3,7 @@
 
 ## Preview
 
-<img src="images/morsear_sample.png" alt="Morsear Sample Screenshot" width="500"/>
+<img src="images/morsear_sample_img.png" alt="Morsear Sample Screenshot" width="500"/>
 
 ## Features
 
