@@ -8,14 +8,14 @@ print("Encode or decode your hidden messages with Caesar Cipher and Morse code."
 
 exit_program = False
 while not exit_program:
-    direction = input("\nType 'encode' to encrypt, type 'decode' to decrypt: ").strip().lower()
+    user_input = input("\nType 'e' to encrypt, type 'd' to decrypt: ").strip().lower()
 
-    if direction == "encode":
+    if user_input == "e":
         string_input = input("Type the message you want to encrypt with Morsear: ").upper()
         shift_num = int(input("Type the shift number: "))
         encrypted_text = encrypt(string_input, shift_num)
         print_encrypted(encrypted_text)
-    elif direction == "decode":
+    elif user_input == "d":
         morsear_input = input("Type your Morsear message to decrypt: ")
         shift_num = int(input("Type the shift number: "))
         decrypted_text = decrypt(morsear_input, shift_num)
